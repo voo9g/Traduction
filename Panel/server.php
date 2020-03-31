@@ -177,7 +177,7 @@ return [
                 'description' => 'Autoriser des utilisateurs à télécharger des fichiers. Si un utilisateur à cette permission, il peut télécharger et regarder le contenu des fichiers même si cette permission n\'est pas assignée au panel.',
             ],
             'list_subusers' => [
-                'title' => 'List Subusers',
+                'title' => 'Afficher les sous-utilisateurs',
                 'description' => 'Allows user to view a listing of all subusers assigned to the server.',
             ],
             'view_subuser' => [
