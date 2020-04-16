@@ -1,25 +1,25 @@
 <?php
 
 return [
-    'daemon_connection_failed' => 'There was an exception while attempting to communicate with the daemon resulting in a HTTP/:code response code. This exception has been logged.',
+    'daemon_connection_failed' => 'Il y a eu une erreur en essayant de communiquer avec le daemon, résultant à un code réponse HTTP/:code . Cette exception a été enregistré.',
     'node' => [
-        'servers_attached' => 'A node must have no servers linked to it in order to be deleted.',
-        'daemon_off_config_updated' => 'The daemon configuration <strong>has been updated</strong>, however there was an error encountered while attempting to automatically update the configuration file on the Daemon. You will need to manually update the configuration file (core.json) for the daemon to apply these changes.',
+        'servers_attached' => 'Une node ne doit pas avoir de serveurs reliés à elle afin d\'être supprimée.',
+        'daemon_off_config_updated' => 'La configuration daemon <strong>a été mise à jour</strong>, pourtant nous rencontrons toujours une erreur en essayant de mettre à jour automatiquement le fichier de configuration sur le Daemon. Vous devrez mettre à jour manuellement le fichier de configuration (core.json) pour que le daemon applique ces changements.',
     ],
     'allocations' => [
-        'server_using' => 'A server is currently assigned to this allocation. An allocation can only be deleted if no server is currently assigned.',
-        'too_many_ports' => 'Adding more than 1000 ports in a single range at once is not supported.',
-        'invalid_mapping' => 'The mapping provided for :port was invalid and could not be processed.',
-        'cidr_out_of_range' => 'CIDR notation only allows masks between /25 and /32.',
-        'port_out_of_range' => 'Ports in an allocation must be greater than 1024 and less than or equal to 65535.',
+        'server_using' => 'Un serveur est actuellement assigné à cette location. Une allocation ne peut être supprimée que si aucun serveur n\'y est assigné.',
+        'too_many_ports' => 'Ajouter plus de 1000 ports dans une seule rangée à la fois n\'est pas supporté.',
+        'invalid_mapping' => 'Le mappage provenu pour :port était invalide et ne pouvait pas être procédé.',
+        'cidr_out_of_range' => 'La notation CIDR n\'autorise que les masques entre \25 et \32.',
+        'port_out_of_range' => 'Les ports dans une allocation doivent être supérieurs à  1024 et inférieur ou égal à 65535.',
     ],
     'nest' => [
         'delete_has_servers' => 'A Nest with active servers attached to it cannot be deleted from the Panel.',
         'egg' => [
-            'delete_has_servers' => 'An Egg with active servers attached to it cannot be deleted from the Panel.',
-            'invalid_copy_id' => 'The Egg selected for copying a script from either does not exist, or is copying a script itself.',
-            'must_be_child' => 'The "Copy Settings From" directive for this Egg must be a child option for the selected Nest.',
-            'has_children' => 'This Egg is a parent to one or more other Eggs. Please delete those Eggs before deleting this Egg.',
+            'delete_has_servers' => 'Un Oeuf ayant des serveurs actifs attachés à lui ne peut pas être supprimé à partir du Panel.',
+            'invalid_copy_id' => 'L\'Oeuf sélectionné afin de copier un script vers un autre n\existe pas, ou est en train de copier un script lui-même.',
+            'must_be_child' => 'La directive "Copier de paramètres de" pour cet Oeuf doit être un enfant pour la ruche sélectionnée.',
+            'has_children' => 'Cet Oeuf est parent d\'un ou plusieurs Oeufs. Supprimez ces Oeufs avant de supprimer cet Oeuf s\'il vous plaît.',
         ],
         'variables' => [
             'env_not_unique' => 'The environment variable :name must be unique to this Egg.',
