@@ -12,8 +12,8 @@ return [
     |
     */
     'password' => 'Les mots de passe doivent comporter au moins six caractères.',
-    'reset' => 'Votre mot de passe a été réinitialisé!',
-    'sent' => 'Nous avons envoyé par e-mail votre lien de réinitialisation de mot de passe!',
+    'reset' => 'Votre mot de passe a été réinitialisé !',
+    'sent' => 'Nous avons envoyé par e-mail votre lien de réinitialisation de mot de passe.',
     'token' => 'La réinitialisation de mot de passe n\'est pas valide.',
-    'user' => "Nous ne pouvons pas trouver un utilisateur avec cette adresse e-mail.",
+    'user' => "Nous ne trouvons pas d\'utilisateur avec cette adresse e-mail.",
 ];
